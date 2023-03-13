@@ -1,0 +1,34 @@
+div.log-area{
+		width: 30vw;
+		height: 80vh;
+		border: 5px solid #aaad01;
+		margin: 5vh 0;
+		padding: 3vh 2vw;
+		background-color: #7d7f24;
+		float: right;
+}
+
+@media only screen and (max-width: 1500px){
+		div.log-area{
+				clear: both;
+				margin: 5vh auto;
+				float: none;
+		}
+}
+
+h3{
+		color: #00b6ff;
+		font-size: 20px;
+		text-align: center;
+		text-shadow: 2px 2px 2px black;
+}
+
+textarea{
+		margin: 1vh auto;
+		width: calc(30vw * 0.85);
+		height: calc(80vh * 0.85);
+		background-color: #0f789e;
+		color: #faff00;
+		letter-spacing: 0.1vw;
+		overflow-y: auto;
+}

@@ -1,0 +1,21 @@
+div.main-page{
+		width: 100vw;
+		height: 100vh;
+		background-image: linear-gradient(to bottom right, #faff00, #d3d624);
+		padding: 5vh 5vw;
+}
+
+@media only screen and (max-width: 1500px){
+		div.main-page{
+				overflow-y: auto;
+		}
+}
+
+h1{
+		color: #00b6ff;
+		font-size: 32px;
+		text-align: center;
+		text-shadow: 2px 2px 2px black;
+}
+
+
