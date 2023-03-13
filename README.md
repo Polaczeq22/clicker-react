@@ -21,3 +21,5 @@ The *reset* button resets the counter (LMB) or the counter and the life cycle lo
 The log displays the messages associated with components' life cycle methods. A single log line consists of a **component name** and **life cycle message**.
 The whole log is contained as a single string in Redux container.
 
+### Running
+To run, type in terminal *npm run dev*

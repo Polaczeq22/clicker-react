@@ -29,7 +29,7 @@ class ClickerButton extends React.Component{
 				return(
 						<button
 								className="clicker-button"
-								onClick={(e) => this.props.handleMouseClick(e)}
+								onMouseDown={(e) => this.props.handleMouseClick(e)}
 						>
 						{this.props.tag}
 						</button>
