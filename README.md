@@ -2,7 +2,7 @@
 
 ## Simple clicker page with component life cycle logging. Uses React.js and Redux.
 
-## Functionalities:
+### Functionalities:
 - Counting (increasing and decreasing value by 1, 5 or 10)
 - Components life cycle logging 
 
