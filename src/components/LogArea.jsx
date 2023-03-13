@@ -18,6 +18,6 @@ class LogArea extends React.Component{
 		};
 };
 
-const mapStateToPros = (state) => ({ content: state.log })
+const mapStateToProps = (state) => ({ content: state.log })
 
-export default connect(mapStateToPros)(LogArea);
+export default connect(mapStateToProps)(LogArea);
